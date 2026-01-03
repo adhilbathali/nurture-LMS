@@ -35,7 +35,7 @@ const Results = () => {
               Real Results. <span className="text-[#01823e]">Measurable</span> Success.
             </h2>
             <p className="text-slate-600 max-w-2xl mx-auto text-lg leading-relaxed">
-              We empower students with a data-driven approach. Our LMS doesn't just deliver content; it nurtures quantifiable academic evolution.
+              We empower students with a data-driven approach. Our LMS doesn&apos;t just deliver content; it nurtures quantifiable academic evolution.
             </p>
           </div>
         </div>
