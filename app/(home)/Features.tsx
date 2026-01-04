@@ -66,7 +66,21 @@ export default function Features() {
   return (
     <section id="features" className="bg-white relative overflow-hidden py-30">
       {/* Background Brand Accents */}
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[#01823e]/5 rounded-full blur-[120px] -mr-64 -mt-64" />
+      <div
+  className="
+    pointer-events-none
+    absolute
+    top-0 right-0
+    -translate-y-1/2
+    translate-x-0 sm:translate-x-16 md:translate-x-32
+    w-60 h-60
+    sm:w-80 sm:h-80
+    md:w-[500px] md:h-[500px]
+    bg-[#01823e]/5
+    rounded-full
+    blur-[80px] sm:blur-[100px] md:blur-[120px]
+  "
+/>
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-3xl mb-16">

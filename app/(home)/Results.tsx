@@ -4,7 +4,7 @@ import { TrendingUp, BookOpen, BarChart3, CheckCircle2, ArrowUpRight } from 'luc
 const Results = () => {
   return (
     <section id="results" className="py-30 bg-[#f8fafc]">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 relative overflow-x-hidden">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
 
         {/* Subtle Decorative Accents */}
         <div
