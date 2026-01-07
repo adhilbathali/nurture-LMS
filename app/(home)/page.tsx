@@ -7,6 +7,7 @@ import React, { useEffect, useRef } from "react";
 import Lenis from "lenis";
 import { useScroll } from "framer-motion";
 import Results from "./Results";
+import About from "./About";
 
 export default function Home(){
 
@@ -24,6 +25,7 @@ export default function Home(){
     return(
         <div className="overflow-hidden" >
             <Hero />
+            <About/>
             <Features/>
             <Courses/>
             <Results/>
